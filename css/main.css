@@ -36,6 +36,24 @@ ul{
  opacity: .8;
 }
 
+.logo{
+ min-height: 15vh;
+ min-width: 15vh;
+ height: auto;
+ width: auto;
+ position: fixed;
+ top: 3%;
+}
+
+.pGo-logo{
+ width: 24vw;
+ margin-bottom: -20px;
+}
+.pikachu-logo{
+ width: 13vw;
+ margin-left: 5vw;
+}
+
 .gold-badge{
  height: 150px;
  width: 150px;
