@@ -1,10 +1,4 @@
 body{
-  overflow:hidden;
-}
-
-.container-fluid{
- height: 100vh;
- width: 100vw;
 }
 
 .roboto{
@@ -12,31 +6,42 @@ body{
 }
 
 .main{
-    background-image: url("../assets/images/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center; 
-    background-size: cover;
-    min-height: 100vh;
-    min-width: 100vw;
+ background-image: url("../assets/images/background.jpg");
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ height: 100vh;
+ width: 100vw;
 }
 
-.ad-info{
- color: white;
- height: 30vh;
+.ad-details{
+ min-height: 30vh;
+ width: 100vw;
+ height: auto;
  background-color: rgba(57,82,127,.8);
- position: relative;
+ position: fixed;
+ bottom: 0px;
+ color: white;
 }
 
-.icons{
- height: 70vh;
- width: 100vh;
-}
+/*.a{
+ background-color:aqua;
+}*/
 
-.ad-info h5 li{
- margin-left: 20px;
-}
-
-.ad-info hx{
+hx{
  font-size: 7vh;
+}
+
+ul{
+ opacity: .8;
+}
+
+.ad-details button{
+ background-color: #ffd624;
+ padding-left: 18vw;
+ padding-right: 18vw;
+ font-size: 5vh;
+ border-radius: 8px;
+ border: solid 1px black;
+ color: black;
 }
