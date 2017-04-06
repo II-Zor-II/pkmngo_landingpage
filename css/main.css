@@ -1,6 +1,14 @@
+body{
+  overflow:hidden;
+}
+
 .container-fluid{
  height: 100vh;
  width: 100vw;
+}
+
+.roboto{
+ font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -11,4 +19,24 @@
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
+}
+
+.ad-info{
+ color: white;
+ height: 30vh;
+ background-color: rgba(57,82,127,.8);
+ position: relative;
+}
+
+.icons{
+ height: 70vh;
+ width: 100vh;
+}
+
+.ad-info h5 li{
+ margin-left: 20px;
+}
+
+.ad-info hx{
+ font-size: 7vh;
 }
